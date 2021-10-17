@@ -1,0 +1,19 @@
+Philadelphia, Pittsburgh
+Boston, New York 
+Hartford, New York 
+Los Angeles, San Diego 
+New York, Croton-Harmon 
+St. Petersburg, Tampa
+Boston, Denver
+Los Angeles, San Fransisco 
+New York, Chicago 
+St. Petersburg, Philadelphia
+Boston, Phoenix
+San Diego, Phoenix
+Phoenix, Portland
+Portland, Phoenix
+Seattle, Los Angeles
+Los Angeles, Seattle
+Los Angeles, Portland
+Chicago, 
+Denver, Hartford
