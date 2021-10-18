@@ -1,0 +1,195 @@
+------------------------------------
+Source City Input:Boston
+Destination City Input:San Diego
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:New York
+Destination City Input:Chicago
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:Chicago
+Destination City Input:New Orleans
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+None
+------------------------------------
+------------------------------------
+Source City Input:Seattle
+Destination City Input:San Fransisco
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:San Diego
+Destination City Input:Delhi
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+None
+------------------------------------
+------------------------------------
+Source City Input:Boston
+Destination City Input:San Diego
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+None
+------------------------------------
+------------------------------------
+Source City Input:Boston
+Destination City Input:San Diego
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+------------------------------------
+Source City Input:Boston
+Destination City Input:San Diego
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:Boston
+Destination City Input:New York
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+------------------------------------
+Source City Input:Boston
+Destination City Input:San Diego
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+------------------------------------
+Source City Input:Boston
+Destination City Input:San Diego
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:San Diego
+Destination City Input:Los Angeles
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:Portland
+Destination City Input:Chicago
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:Boston
+Destination City Input:San Diego
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:
+Destination City Input:
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:San Diego
+Destination City Input:
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:Boston
+Destination City Input:Chicago
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:
+Destination City Input:
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:
+Destination City Input:San Diego
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+None
+------------------------------------
+------------------------------------
+Source City Input:Chicago
+Destination City Input:Boston
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------
+------------------------------------
+Source City Input:Boston
+Destination City Input:
+Initiating Connecting_Cities class ----
+Creating traversal graph ----
+Connectivity check running ----
+Connectivity check running ...
+Connectivity check success!
+True
+------------------------------------

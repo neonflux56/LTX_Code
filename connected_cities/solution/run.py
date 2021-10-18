@@ -1,61 +1,42 @@
+import os,sys
+from utils import *
+from config import Config
+import logging
 
-from itertools import groupby
-from collections import defaultdict
-import os
-
-
-class Connecting_Cities:
-
-    def __init__(self, source, dest, textFile):
-        self.source = source
-        self.dest = dest
-        self.textFile = textFile
-
-    def connectivity(self, graph):
-        flag = 0
-        visited = set()
-        def dfs(visited, graph, source, dest):
-            if source == dest:
-                return True
-            if source in visited:
-                return False
-            else:
-                visited.add(source)
-                for next_city in graph[source]:
-                    if dfs(visited, graph, next_city, dest): 
-                        return True
-        return (dfs(visited,graph,self.source,self.dest))
-
-
-    def process_file(self):
-        kv = []
-        with open(self.textFile) as f:
-            for s in f.readlines():
-                kv.append(((s.split(','))[0].strip() ,(s.split(','))[1].strip()))
-        graph = defaultdict(list)
-        for k,v in groupby(kv, lambda x:x[0]):
-            graph[k].append([i[1] for i in list(v)][0])
-        #print(graph)
-        f.close()
-        return graph
-
-
-    def process_result(self, result):
-        if result:
-            return ('There is a connection between '+ self.source+ ' and ' + self.dest + '!')
-        else:
-            return ('No connection between '+ self.source+ ' and ' + self.dest + '!')
-
-
+sys.setrecursionlimit(Config.SET_RECURSION_LIMIT)
 
 if __name__ == '__main__':
-    CC = Connecting_Cities('San Diego', 'Los Angeles', 'solution/data.txt')
-    graph = CC.process_file()
-    res = CC.connectivity(graph)
-    print(CC.process_result(res))
-    
 
-    
-        
-    
-    
+    logger = logging.getLogger('connectivity_application')
+    logger.setLevel(logging.DEBUG)
+    # create file handler which logs even debug messages
+    fh = logging.FileHandler(Config.LOG_FILE_PATH)
+    fh.setLevel(logging.DEBUG)
+    logger.addHandler(fh)
+
+    print('------------------------------------')
+    print('------------------------------------')
+    sourceCity = input("Enter the source city: ")
+    # Example: 'San Diego'
+    destCity = input("Enter the destination city: ")
+    # Example: 'Los Angeles'
+
+    logger.info('------------------------------------')
+    logger.info('Source City Input:' + sourceCity)
+    logger.info('Destination City Input:' + destCity)
+    logger.info('Initiating Connecting_Cities class ----')
+    # Initiate class instance
+    CC = Connecting_Cities(sourceCity, destCity, Config.MY_FILE_PATH)
+    logger.info('Creating traversal graph ----')
+    # Fetch traversal graph
+    graph = CC.process_file()
+    logger.info('Connectivity check running ----')
+    # DFS on nodes to check for path
+    res = CC.connectivity(graph)
+    logger.info('Connectivity check running ...')
+    logger.info('Connectivity check success!')
+    logger.info(res)
+    logger.info('------------------------------------')
+    print('------------------------------------')
+    print(CC.process_result(res))
+    print('------------------------------------')

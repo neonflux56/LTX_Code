@@ -1,0 +1,22 @@
+
+STEPS TO FOLLOW
+
+Note - Entire code is based on python3 syntax and all terminal commands cater to MacOS users.
+
+- Open command line and cd into race_simulation dir
+- N_SIMULATIONS and RACE_LENGTH are set to 1000 and 1500 default in the config.py file
+- Run the command -> python3 run.py
+- A logging file handler is used to log all executions to the file output.log
+
+Example output:
+Ashish@NeonFlux56 race_simulation % python3 run.py
+------------------------------------
+Initializing all vehicles...
+BootStrapping 6 vehicles including each type ...
+Simulating 1000 races between bootstrapped vehicles...
+------------------------------------
+Winner vehicle:   truckA
+Winning characteristics:
+{'engine_capacity': '2276cc', 'auto_transmission': '8-speed', 'odo_miles': 1592, 'avg_speed': 199, 'max_speed': 200}
+------------------------------------
+

@@ -1,7 +1,6 @@
 from . import app
-from flask import render_template,  url_for, flash, redirect, request, abort, session, make_response, jsonify
+from flask import render_template,  url_for, redirect, request, abort, session, jsonify
 from datetime import datetime
-
 
 
 @app.route("/", methods = ['GET','POST'])

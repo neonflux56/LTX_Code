@@ -1,0 +1,458 @@
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckB' 'carB' 'motorcycleA' 'truckA' 'truckB' 'truckC']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckB
+{'engine_capacity': 'Full', 'odo_miles': 1590, 'avg_speed': 159, 'max_speed': 160}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carB' 'carA' 'motorcycleC' 'motorcycleC' 'truckC' 'motorcycleB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleC
+{'nos': 'Auto', 'odo_miles': 1512, 'avg_speed': 189, 'max_speed': 190}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carC
+{'battery_type': 'Auto', 'odo_miles': 1673, 'avg_speed': 239, 'max_speed': 240}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carC
+{'battery_type': 'Auto', 'odo_miles': 1673, 'avg_speed': 239, 'max_speed': 240}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckB' 'carC' 'motorcycleB' 'truckB' 'motorcycleB' 'truckC']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckB
+{'engine_capacity': 'Full', 'odo_miles': 1590, 'avg_speed': 159, 'max_speed': 160}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carB' 'truckC' 'carA' 'carC' 'motorcycleB' 'motorcycleA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckC
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carB' 'truckC' 'carC' 'motorcycleA' 'motorcycleA' 'carA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleA
+{'nos': 'Semi', 'odo_miles': 1611, 'avg_speed': 179, 'max_speed': 180}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carA' 'truckA' 'motorcycleA' 'carA' 'truckB' 'motorcycleB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carA
+{'battery_type': 'Semi', 'odo_miles': 1592, 'avg_speed': 199, 'max_speed': 200}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleB' 'carB' 'motorcycleA' 'motorcycleB' 'motorcycleA' 'truckB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleA
+{'nos': 'Semi', 'odo_miles': 1611, 'avg_speed': 179, 'max_speed': 180}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carA' 'motorcycleA' 'motorcycleC' 'truckC' 'motorcycleB' 'truckB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckC
+{'engine_capacity': 'Auto', 'odo_miles': 1674, 'avg_speed': 279, 'max_speed': 280}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckB
+{'engine_capacity': 'Full', 'odo_miles': 1590, 'avg_speed': 159, 'max_speed': 160}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carB' 'carB' 'motorcycleC' 'motorcycleC' 'truckA' 'truckA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleC
+{'nos': 'Auto', 'odo_miles': 1512, 'avg_speed': 189, 'max_speed': 190}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleC
+{'nos': 'Auto', 'odo_miles': 1512, 'avg_speed': 189, 'max_speed': 190}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carA
+{'battery_type': 'Semi', 'odo_miles': 1592, 'avg_speed': 199, 'max_speed': 200}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carA' 'motorcycleA' 'truckB' 'truckA' 'carB' 'carB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'odo_miles': 1611, 'avg_speed': 179, 'max_speed': 180}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'odo_miles': 1611, 'avg_speed': 179, 'max_speed': 180}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckC' 'carC' 'truckC' 'truckB' 'motorcycleB' 'motorcycleC']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckC
+{'engine_capacity': 'Auto', 'odo_miles': 1674, 'avg_speed': 279, 'max_speed': 280}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckB' 'motorcycleB' 'carB' 'motorcycleA' 'motorcycleA' 'carB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'odo_miles': 1611, 'avg_speed': 179, 'max_speed': 180}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckC
+{'engine_capacity': 'Auto', 'odo_miles': 1674, 'avg_speed': 279, 'max_speed': 280}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleB' 'truckA' 'motorcycleB' 'carA' 'truckB' 'truckB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleB
+{'nos': 'Full', 'odo_miles': 1590, 'avg_speed': 159, 'max_speed': 160}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carB' 'carC' 'motorcycleB' 'truckC' 'truckA' 'truckB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckC
+{'engine_capacity': 'Auto', 'odo_miles': 1674, 'avg_speed': 279, 'max_speed': 280}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleB
+{'nos': 'Full', 'odo_miles': 1590, 'avg_speed': 159, 'max_speed': 160}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carC
+{'battery_type': 'Auto', 'odo_miles': 1673, 'avg_speed': 239, 'max_speed': 240}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carB' 'motorcycleC' 'truckC' 'carC' 'carC' 'carB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carC
+{'battery_type': 'Auto', 'odo_miles': 1673, 'avg_speed': 239, 'max_speed': 240}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckA' 'motorcycleB' 'carC' 'carB' 'motorcycleB' 'truckB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleB
+{'nos': 'Full', 'odo_miles': 1590, 'avg_speed': 159, 'max_speed': 160}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'odo_miles': 1611, 'avg_speed': 179, 'max_speed': 180}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleA' 'truckC' 'motorcycleA' 'carA' 'truckA' 'truckC']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckC
+{'engine_capacity': 'Auto', 'odo_miles': 1674, 'avg_speed': 279, 'max_speed': 280}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carC' 'motorcycleC' 'motorcycleC' 'motorcycleB' 'truckA' 'motorcycleC']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleC
+{'nos': 'Auto', 'odo_miles': 1512, 'avg_speed': 189, 'max_speed': 190}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleB' 'carA' 'truckC' 'motorcycleB' 'carC' 'truckB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleB
+{'max_rpm': '16,000', 'curb_weight': '300lbs', 'odo_miles': 1590, 'avg_speed': 159, 'max_speed': 160}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carC' 'truckC' 'carB' 'motorcycleA' 'motorcycleB' 'carA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carC
+{'battery_type': 'Auto', 'tire_traction': 'gradeB', 'odo_miles': 1568, 'avg_speed': 224, 'max_speed': 225}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carC
+{'battery_type': 'Auto', 'tire_traction': 'gradeB', 'odo_miles': 1568, 'avg_speed': 224, 'max_speed': 225}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleC' 'truckA' 'carA' 'truckA' 'motorcycleA' 'motorcycleB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckA
+{'engine_capacity': '2276cc', 'auto_transmission': '8-speed', 'odo_miles': 1592, 'avg_speed': 199, 'max_speed': 200}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleB' 'carA' 'carB' 'carA' 'truckB' 'motorcycleB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carA
+{'battery_type': 'Semi', 'tire_traction': 'gradeAA', 'odo_miles': 1592, 'avg_speed': 199, 'max_speed': 200}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carA' 'carB' 'carB' 'motorcycleC' 'motorcycleA' 'truckA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'tire_traction': 'gradeA', 'odo_miles': 1533, 'avg_speed': 219, 'max_speed': 220}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckC' 'carB' 'motorcycleA' 'carA' 'carB' 'truckA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'tire_traction': 'gradeA', 'odo_miles': 1533, 'avg_speed': 219, 'max_speed': 220}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleC' 'motorcycleA' 'carB' 'motorcycleB' 'truckC' 'truckA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'tire_traction': 'gradeA', 'odo_miles': 1533, 'avg_speed': 219, 'max_speed': 220}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'tire_traction': 'gradeA', 'odo_miles': 1533, 'avg_speed': 219, 'max_speed': 220}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleA' 'truckB' 'motorcycleA' 'truckC' 'truckA' 'carA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleA
+{'max_rpm': '14,000', 'curb_weight': '450lbs', 'odo_miles': 1611, 'avg_speed': 179, 'max_speed': 180}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckB' 'carC' 'carA' 'truckA' 'motorcycleC' 'carA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carA
+{'battery_type': 'Semi', 'tire_traction': 'gradeAA', 'odo_miles': 1592, 'avg_speed': 199, 'max_speed': 200}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleC' 'carA' 'truckC' 'carB' 'motorcycleB' 'motorcycleC']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleC
+{'max_rpm': '12,000', 'curb_weight': '340lbs', 'odo_miles': 1512, 'avg_speed': 189, 'max_speed': 190}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carC' 'carB' 'motorcycleA' 'truckB' 'truckB' 'carB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'tire_traction': 'gradeA', 'odo_miles': 1533, 'avg_speed': 219, 'max_speed': 220}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleC' 'truckA' 'motorcycleA' 'carB' 'carB' 'motorcycleA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'tire_traction': 'gradeA', 'odo_miles': 1533, 'avg_speed': 219, 'max_speed': 220}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carC
+{'battery_type': 'Auto', 'tire_traction': 'gradeB', 'odo_miles': 1568, 'avg_speed': 224, 'max_speed': 225}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckA' 'carB' 'truckB' 'motorcycleA' 'truckA' 'motorcycleC']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckA
+{'engine_capacity': '2276cc', 'auto_transmission': '8-speed', 'odo_miles': 1592, 'avg_speed': 199, 'max_speed': 200}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carA' 'carB' 'motorcycleB' 'truckA' 'motorcycleB' 'carC']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleB
+{'max_rpm': '16,000', 'curb_weight': '300lbs', 'odo_miles': 1590, 'avg_speed': 159, 'max_speed': 160}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleC' 'truckB' 'carB' 'motorcycleB' 'carC' 'truckA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'tire_traction': 'gradeA', 'odo_miles': 1533, 'avg_speed': 219, 'max_speed': 220}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['carB' 'carB' 'truckC' 'motorcycleC' 'motorcycleB' 'truckC']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carB
+{'battery_type': 'Full', 'tire_traction': 'gradeA', 'odo_miles': 1533, 'avg_speed': 219, 'max_speed': 220}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckC' 'carB' 'motorcycleB' 'truckC' 'motorcycleC' 'motorcycleB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckC
+{'engine_capacity': '2750cc', 'auto_transmission': '6-speed', 'odo_miles': 1566, 'avg_speed': 174, 'max_speed': 175}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+None
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+motorcycleB
+{'max_rpm': '16,000', 'curb_weight': '300lbs', 'odo_miles': 1590, 'avg_speed': 159, 'max_speed': 160}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['motorcycleC' 'carC' 'carC' 'truckA' 'truckC' 'motorcycleA']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+carC
+{'battery_type': 'Auto', 'tire_traction': 'gradeB', 'odo_miles': 1568, 'avg_speed': 224, 'max_speed': 225}
+------------------------------------
+Initializing vehicles with different characteristics -----
+BootStrapping 6 Vehicles including each type -----
+Bootstrapped Vehicles - 
+['truckA' 'truckC' 'truckB' 'carC' 'truckB' 'motorcycleB']
+Simulating 1000 races between bootstrapped vehicles -----
+Winner:
+truckB
+{'engine_capacity': '2900cc', 'auto_transmission': '7-speed', 'odo_miles': 1512, 'avg_speed': 189, 'max_speed': 190}

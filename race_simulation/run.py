@@ -1,98 +1,35 @@
+import os,sys
+from config import Config
+from commons import vehicle,car,motorcycle,truck
+from utils import *
+import logging
 
-import random
-import numpy as np
-from collections import defaultdict
-import sys
-    
 sys.setrecursionlimit(10000)
-
-class vehicle:
-    def __init__(self, odo_miles, avg_speed,max_speed):
-        self.odo_miles = odo_miles
-        self.avg_speed = avg_speed
-        self.max_speed = max_speed
-
-    def reset(self):
-        self.odo_miles = 0
-
-    def setOdometer(self):
-        self.odo_miles += self.avg_speed            
-        if self.odo_miles >= 1500:   # RACE_LENGTH
-            return True
-        self.avg_speed = random.randrange(self.avg_speed, self.max_speed)
-        return False
-
-
-class car(vehicle):
-    def __init__(self, battery_type, odo_miles, avg_speed,max_speed):
-        self.battery_type=battery_type
-        super().__init__(odo_miles, avg_speed,max_speed)
-
-class motorcycle(vehicle):
-    def __init__(self, nos, odo_miles, avg_speed,max_speed):
-        self.nos=nos
-        super().__init__(odo_miles, avg_speed,max_speed)
-
-class truck(vehicle):
-    def __init__(self, engine_capacity, odo_miles, avg_speed,max_speed):
-        self.engine_capacity=engine_capacity
-        super().__init__(odo_miles, avg_speed,max_speed)
-
-
-def getBootstrappedVehicles(allVehicles):
-    bsVehicles = np.random.choice(list(allVehicles.keys()),replace = True, size = 6)
-    bsVehicletype = set()
-    for i in bsVehicles:
-        bsVehicletype.add(i[:-1])
-    if ('car' in bsVehicletype) and ('truck' in bsVehicletype) and ('motorcycle' in bsVehicletype):
-        return bsVehicles
-    getBootstrappedVehicles(allVehicles)
-    
-
-def race_simulate(bsVehicles, allVehicles, N):
-    raceWinnerCount = {}
-    for i in range(N):
-        raceFinished = False
-        mins = 0
-        if bsVehicles is None:
-            bsVehicles = getBootstrappedVehicles(allVehicles)
-            continue
-        else:
-            for v in bsVehicles:
-                # Reset Odometer miles
-                allVehicles[v].reset()
-            while not raceFinished:
-                mins += 1
-                for v in bsVehicles:
-                    raceFinished = allVehicles[v].setOdometer()
-                    if raceFinished:
-                        # Logging mins etc
-                        #print(v)
-                        #print(mins)
-                        # Store v in list
-                        raceWinnerCount[v] = raceWinnerCount.get(v,0) + 1
-                        break
-    return getOverallWinner(raceWinnerCount, allVehicles)
-
-def getOverallWinner(raceWinnerCount, allVehicles):
-    winner = (list(raceWinnerCount.keys())[list(raceWinnerCount.values()).index(max(raceWinnerCount.values()))])
-    winnerProperties = allVehicles[winner].__dict__
-    return winner, winnerProperties
-
-
 
 if __name__ == '__main__':
 
-    carA = car('Semi',0,108.0,200)
-    carB = car('Full',0,75.0,180)
-    carC = car('Auto',0,130.0,240)
-    motorcycleA = motorcycle('Semi',0,90.0,180)
-    motorcycleB = motorcycle('Full',0,80.0,160)
-    motorcycleC = motorcycle('Auto',0,110.0,190)
-    truckA = truck('Semi',0,120.0,190)
-    truckB = truck('Full',0,90.0,160)
-    truckC = truck('Auto',0,85.0,280)
+    logger = logging.getLogger('connectivity_application')
+    logger.setLevel(logging.DEBUG)
+    # create file handler which logs even debug messages
+    fh = logging.FileHandler(Config.LOG_FILE_PATH)
+    fh.setLevel(logging.DEBUG)
+    logger.addHandler(fh)
 
+    # Initialize 9 vehicles - 3 cars, 3 motorcycles and 3 trucks
+    print('------------------------------------')
+    print('Initializing all vehicles...')
+    logger.info('------------------------------------')
+    logger.info('Initializing vehicles with different characteristics -----')
+    carA = car('Semi','gradeAA',0,108.0,200)
+    carB = car('Full','gradeA',0,115.0,220)
+    carC = car('Auto','gradeB',0,130.0,225)
+    motorcycleA = motorcycle('14,000','450lbs',0,98.0,180)
+    motorcycleB = motorcycle('16,000','300lbs',0,102.0,160)
+    motorcycleC = motorcycle('12,000','340lbs',0,100.0,190)
+    truckA = truck('2276cc','8-speed',0,120.0,200)
+    truckB = truck('2900cc','7-speed',0,125.0,190)
+    truckC = truck('2750cc','6-speed',0,110.0,175)
+    # Create a dictionary mapping vehicle names to class objects
     allVehicles = defaultdict(list)
     allVehicles['carA'] = carA
     allVehicles['carB'] = carB
@@ -104,15 +41,28 @@ if __name__ == '__main__':
     allVehicles['truckB'] = truckB
     allVehicles['truckC'] = truckC
 
+    # Get bootstrapped vehicles with atleast 1 car, 1 motorcycle and 1 truck
+    print('BootStrapping 6 vehicles including each type ...')
+    logger.info('BootStrapping 6 Vehicles including each type -----')
     bsVehicles = getBootstrappedVehicles(allVehicles)
+    logger.info('Bootstrapped Vehicles - ')
+    logger.info(bsVehicles)
 
-    # race for n simulations
-    N = 1000
-    
+    # Simulate race for N Simulation
+    N = Config.N_SIMULATIONS
+    print('Simulating ' + str(N) + ' races between bootstrapped vehicles...')
+    logger.info('Simulating ' + str(N) + ' races between bootstrapped vehicles -----')
     winner, winnerProperties = race_simulate(bsVehicles, allVehicles, N)
-    print(winner)
-    print(winnerProperties)
 
+    # Print and log results
+    print('------------------------------------')
+    print('Winner vehicle:   ' + winner)
+    logger.info('Winner:')
+    logger.info(winner)
+    print('Winning characteristics:')
+    logger.info(winnerProperties)
+    print(winnerProperties)
+    print('------------------------------------')
    
 
 

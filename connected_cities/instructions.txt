@@ -1,0 +1,27 @@
+
+STEPS TO FOLLOW
+
+Note - Entire code is based on python3 syntax and all terminal commands cater to MacOS users.
+
+Run Solution:
+- Open command line and cd into connected_cities dir
+- Sample data file with all paired cities is stored in solution folder
+- Use MY_FILE_PATH in config.py to change the path to the data file or change filename 
+- Run the command -> python3 solution/run.py
+- Enter source city and destination city when prompted
+- Result shows if the two cities are connected
+- A logging file handler is used to log all executions to the file output.log
+
+Example output:
+------------------------------------
+------------------------------------
+Enter the source city: Chicago
+Enter the destination city: Boston
+------------------------------------
+There is a connection between Chicago and Boston!
+------------------------------------
+
+Run Unit Test:
+- Open command line and cd into connected_cities dir
+- Run the command -> python3 -m unittest -v  test.py
+- This runs the test.py file which uses unittest module for testing 3 main components of the code

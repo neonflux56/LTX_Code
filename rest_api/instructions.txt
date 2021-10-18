@@ -1,0 +1,16 @@
+
+STEPS TO FOLLOW
+
+Note - Entire code is based on python3 syntax and all terminal commands cater to MacOS users.
+
+- Open terminal and cd into rest_api
+- Start virtual environment using the following command -> source venv/bin/acticate
+- Run flask server by running the command -> python3 app/runapp.py
+- Copy the url http://localhost:5000/ and paste in a browser to use the rest api 
+- GET Method:
+  Use msg as key in the url to enter input text to echo. For example, the a GET url request is as follows:
+  http://localhost:5000/?msg=Flask_is_Convenient
+  This echoes the text Flask_is_Convenient and the server fetch timestamp
+- POST Method:
+  Use the input field to enter any text and click on submit to send a POST request.
+  The entered text is echoed along with the timestamp.
