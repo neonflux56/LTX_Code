@@ -4,7 +4,9 @@ STEPS TO FOLLOW
 Note - Entire code is based on python3 syntax and all terminal commands cater to MacOS users.
 
 - Open terminal and cd into rest_api
-- Start virtual environment using the following command -> source venv/bin/acticate
+- Create a virtual environment of python in the folder by running command -> virtualenv venv
+- Activate the virtual environment using the following command -> source venv/bin/acticate
+- Install all dependencies from requirements.txt using the command -> pip install -r requirements.txt
 - Run flask server by running the command -> python3 app/runapp.py
 - Copy the url http://localhost:5000/ and paste in a browser to use the rest api 
 - GET Method:
@@ -14,3 +16,5 @@ Note - Entire code is based on python3 syntax and all terminal commands cater to
 - POST Method:
   Use the input field to enter any text and click on submit to send a POST request.
   The entered text is echoed along with the timestamp.
+
+  
