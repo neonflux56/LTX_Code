@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>
+            SIMPLE REST API
+        </h1>
+    </head>
+    <body>
+        {% if method == 'get' %}
+        <h4>Text echo using GET method:</h4>
+        You said : {{ msg }}
+        <br>
+        Timestamp : {{ timestamp }}
+        {% endif %}
+        <br>
+        <br>
+        <h4>Enter text in the blank below to echo using POST method:</h4>
+        <form action="/" method="POST">
+            <br>
+            <input type="text" id="text" name="text" size = "80">
+            <input type="submit">
+        </form>
+        <br>
+        {% if method == 'post' %}
+        You said : {{ text }}
+        <br>
+        Timestamp : {{ timestamp }}
+        {% endif %}
+    </body>
+</html>

@@ -108,12 +108,14 @@ if __name__ == '__main__':
 
     # race for n simulations
     N = 1000
-
+    
     winner, winnerProperties = race_simulate(bsVehicles, allVehicles, N)
     print(winner)
     print(winnerProperties)
 
    
+
+
 
 
     

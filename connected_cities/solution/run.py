@@ -49,7 +49,7 @@ class Connecting_Cities:
 
 
 if __name__ == '__main__':
-    CC = Connecting_Cities('Boston', 'Portland', 'solution/data.txt')
+    CC = Connecting_Cities('San Diego', 'Los Angeles', 'solution/data.txt')
     graph = CC.process_file()
     res = CC.connectivity(graph)
     print(CC.process_result(res))
